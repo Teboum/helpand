@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/"
+  to = "https://helpand.herokuapp.com/"
+  status = 200
+  force = true
+  conditions = {Role = ["admin", "editor"]}
